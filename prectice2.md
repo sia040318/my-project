@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     A[Prototype for Recording Noisy Audio\n(Microphone + Simple Hearing Aid)] --> B[Data Collection\nNoisy & Clean Audio (WAV, 16kHz)]
     B --> C[Data Preprocessing\nSegmentation & Normalization]
@@ -11,3 +12,4 @@ flowchart TD
     class A,F,G device;
     classDef model fill:#bbf,stroke:#333,stroke-width:2px;
     class D,E model;
+```
